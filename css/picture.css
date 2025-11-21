@@ -1,0 +1,365 @@
+.gradient-square {
+    width: 200px;               
+    height: 200px;              
+    background: linear-gradient( 
+        -45deg,                  
+        #a8d0f8,                
+        #f7f9de                 
+    );
+    overflow: hidden;
+    position: relative;
+}
+
+
+.yellow-circle {
+    width: 25%;               
+    height: 25%;              
+    background: #efeb03;        
+    border-radius: 50%;         
+    position: absolute;         
+    top: -2.5%;                  
+    left: -2.5%;                 
+}
+
+
+.grey-column-1 {
+    width: 3.5%;
+    height: 60%;
+    background: #a4a4a4;
+    position: absolute;
+    top: 45%;
+    left: 0px;
+}
+
+.grey-column-2 {
+    width: 6%;
+    height: 60%;
+    background: #a4a4a4;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.grey-column-3 {
+    width: 6%;
+    height: 60%;
+    background: #a4a4a4;
+    position: absolute;
+    top: 45%;
+    left: 63.5%;
+}
+
+.grey-column-4 {
+    width: 3.5%;
+    height: 60%;
+    background: #a4a4a4;
+    position: absolute;
+    top: 45%;
+    left: 96.5%;
+}
+
+.semi-ring-1 {
+    width: 33.5%;               
+    height: 20%;               
+    border: 7px solid #a4a4a4; 
+    border-bottom: none;        
+    border-radius: 60% / 100% 100% 0 0; 
+    position: absolute;
+    top: 25.5%;                  
+    left: 0;
+}
+
+.semi-ring-2 {
+    width: 33.5%;               
+    height: 20%;               
+    border: 7px solid #a4a4a4; 
+    border-bottom: none;        
+    border-radius: 60% / 100% 100% 0 0; 
+    position: absolute;
+    top: 25.5%;                  
+    left: 32.5%;
+}
+
+
+.semi-ring-3 {
+    width: 34%;               
+    height: 20%;               
+    border: 7px solid #a4a4a4; 
+    border-bottom: none;        
+    border-radius: 60% / 100% 100% 0 0; 
+    position: absolute;
+    top: 25.5%;                 
+    left: 66%;
+}
+
+
+.trapezoid {
+    width: 75%;               
+    height: 0;                  
+    border-top: 60px solid #a37c26; 
+    border-left: 25px solid transparent;   
+    border-right: 25px solid transparent;  
+    position: absolute;
+    top: 65%;
+    left: 15%;
+}
+
+.stick-1 {
+    width: 75%;
+    height: 2.5%;
+    background: #8a4d01;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+}
+
+.stick-2 {
+    width: 67%;
+    height: 2.5%;
+    background: #8a4d01;
+    position: absolute;
+    top: 72.5%;
+    left: 19%;
+}
+
+.stick-3 {
+    width: 61%;
+    height: 2.5%;
+    background: #8a4d01;
+    position: absolute;
+    top: 80%;
+    left: 22%;
+}
+
+.stick-4 {
+    width: 55%;
+    height: 2.5%;
+    background: #8a4d01;
+    position: absolute;
+    top: 87.5%;
+    left: 25%;
+}
+
+.bubble-1 {
+    width: 35%;               
+    height: 30%;              
+    background: linear-gradient(
+        135deg,
+        #b3ddf7, 
+        #055fc7);
+    border-radius: 50%;         
+    position: absolute;         
+    bottom: -5%;                  
+    left: -2.5%;   
+}
+
+.bubble-2 {
+    width: 40%;               
+    height: 35%;              
+    background: linear-gradient(
+        135deg,
+        #b3ddf7, 
+        #055fc7);
+    border-radius: 50%;         
+    position: absolute;         
+    bottom: -7%;                 
+    left: 20%;   
+}
+
+.bubble-3 {
+    width: 40%;               
+    height: 35%;              
+    background: linear-gradient(
+        135deg,
+        #b3ddf7, 
+        #055fc7);
+    border-radius: 50%;         
+    position: absolute;        
+    bottom: -17.5%;                  
+    left: 40%;   
+}
+
+.bubble-4 {
+    width: 35.5%;               
+    height: 34%;             
+    background: linear-gradient(
+        135deg,
+        #b3ddf7, 
+        #055fc7);
+    border-radius: 50%;        
+    position: absolute;        
+    bottom: -6.5%;              
+    left: 70%;   
+}
+
+.window-1 {
+    width: 6%;
+    height: 6%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 26%;
+    left: 25%;
+}
+
+.window-2 {
+    width: 6%;
+    height: 6%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 26%;
+    left: 35%;
+}
+
+.window-3 {
+    width: 6%;
+    height: 6%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 26%;
+    left: 45%;
+}
+
+.window-4 {
+    width: 6%;
+    height: 6%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 26%;
+    left: 55%;
+}
+
+.window-5 {
+    width: 6%;
+    height: 6%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 26%;
+    left: 65%;
+}
+
+.window-6 {
+    width: 6%;
+    height: 6%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 26%;
+    left: 75%;
+}
+
+.post {
+    width: 3.5%;
+    height: 40%;
+    background: #8a4d01;
+    position: absolute;
+    bottom: 35%;
+    left: 45%;
+}
+
+.sail {
+    width: 40%;   
+    height: 42.5%; 
+    background: linear-gradient(
+        90deg,
+        #e00606,
+        #f6cccc
+    );
+    clip-path: polygon(0 100%, 100% 80%, 0 0);
+    
+    position: absolute;
+    bottom: 35%;
+    left: 47.5%;
+}
+
+.flag {
+    width: 20%;
+    height: 7.5%;
+    background: #000000;
+    position: absolute;
+    bottom: 75%;
+    left: 43.5%;
+}
+
+.flag-dop-1 {
+    width: 20%;             
+    height: 1%;             
+    border: 5px solid #000000;      
+    border-radius: 60% / 0 0 100% 100%; 
+    border-top: none;   
+    position: absolute;
+    bottom: 72.5%;                
+    left: 43.5%;
+}
+
+.flag-dop-2 {
+    width: 20%;             
+    height: 3%;             
+    border: 5px solid #000000;      
+    border-radius: 50% / 0 0 100% 100%; 
+    border-top: none;    
+    position: absolute;
+    bottom: 80%;                
+    left: 43.5%;
+}
+
+
+.circle-1 {
+    width: 3%;
+    height: 3%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 74%;
+    left: 48%;
+}
+.circle-2 {
+    width: 3%;
+    height: 3%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 79%;
+    left: 48%;
+}
+.circle-3 {
+    width: 3%;
+    height: 3%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 74%;
+    left: 53%;
+}
+.circle-4 {
+    width: 3%;
+    height: 3%;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 79%;
+    left: 53%;
+}
+
+.flag-stick-1 {
+    width: 7.5%; 
+    height: 1%;
+    background: #ffffff;
+    position: absolute;
+    bottom: 77%;   
+    left: 48%;  
+    transform: rotate(-45deg);
+}
+.flag-stick-2 {
+    width: 7.5%; 
+    height: 1%;
+    background: #ffffff;
+    position: absolute;
+    bottom: 78%;   
+    left: 48%;  
+    transform: rotate(45deg);
+}

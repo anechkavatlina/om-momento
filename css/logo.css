@@ -1,0 +1,66 @@
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 12px;
+}
+
+.logo-graphic {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 45px;
+    height: 45px;
+    border: 3px solid #9fb8ad;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+}
+
+.petal_1 {
+    position: absolute;
+    bottom: 13px;  
+    left: 28px;   
+    width: 14px;
+    height: 14px;
+    background-color: #ffa5a5;
+    border: 1px solid white;
+    border-radius: 100% 0% 100% 100%;
+    transform-origin: center center; 
+    transform: rotate(20deg)
+    
+}
+
+.petal_2 {
+    position: absolute;
+    bottom: 13px;  
+    left: 13px;   
+    width: 14px;
+    height: 14px;
+    background-color: #ffa5a5;
+    border: 1px solid white;
+    border-radius: 0% 100% 100% 100%;
+    transform-origin: center center; 
+    transform: rotate(-20deg)
+}
+
+.petal_3 {
+    position: absolute;
+    bottom: 12px;  
+    left: 19px;   
+    width: 17px;
+    height: 17px;
+    background-color: #ffa5a5;
+    border: 1px solid white;
+    border-radius: 100% 0% 100% 100%;
+    transform-origin: center center; 
+    transform: rotate(-45deg)
+}
+

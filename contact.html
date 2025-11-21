@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЙОУга</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/words.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-graphic">
+                        <div class="circle"></div>
+                        <div class="petal_1"></div>
+                        <div class="petal_2"></div>
+                        <div class="petal_3"></div>
+                    </div>
+                    <span class="logo-text">Om & Momento</span>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="poses.html">Позы</a></li>
+                    <li><a href="contact.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Свяжитесь с нами</h1>
+                <p>Мы всегда рады помочь вам на пути йоги</p>
+            </div>
+        </section>
+
+        <section class="contacts-section">
+            <div class="container">
+                <div class="contacts-grid">
+                    <div class="contact-info">
+                        <h2>Наши контакты</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>info@om-momento.ru</p>
+                                <span>Отвечаем в течение 24 часов</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h3>Телефон</h3>
+                                <p>+7 (999) 123-45-67</p>
+                                <span>Пн-Пт с 9:00 до 20:00</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Адрес</h3>
+                                <p>Москва, ул. Йоговская, д. 108</p>
+                                <span>Станция метро "Просветление"</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-details">
+                                <h3>Часы работы</h3>
+                                <p>Понедельник - Воскресенье</p>
+                                <span>с 7:00 до 22:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="container-words">
+                    <div class="block3-top" id="block3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    
+                    <div class="bottom-container">
+                        <div class="block2-left" id="block2" ondrop="dropBack(event)" ondragover="allowDrop(event)"></div>
+                        
+                        <div class="block1-right">
+                            <div class="input-container">
+                                <input type="text" id="textInput" placeholder="Введите слова через тире">
+                                <button onclick="parseWords()">Разобрать</button>
+                            </div>
+                            
+                            <div class="words-output" id="wordsOutput">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="map-section">
+                    <h2>Мы находимся здесь</h2>
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <div class="map-icon">🗺️</div>
+                            <p>Карта загружается...</p>
+                            <small>Москва, ул. Йоговская, д. 108</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo-footer">
+                        <a href="index.html">Om & Momento</a>
+                    </div>
+                    <p>Йога - это путь к себе. Начните его сегодня. Мяу мяу</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="poses.html">Позы</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">YouTube</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>email: info@om-momento.ru</p>
+                    <p>телефон: +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; Om & Momento, 2025. Все права на гармонию защищены.</p>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('show');
+        });
+    </script>
+
+    <script>
+        let wordsArray = [];
+        let originalPositions = new Map();
+        let block3Color = null;
+
+        function parseWords() {
+            const input = document.getElementById('textInput').value;
+            const words = input.split('-').filter(word => word.trim() !== '');
+            
+            document.getElementById('block2').innerHTML = '';
+            document.getElementById('block3').innerHTML = '';
+            document.getElementById('wordsOutput').innerHTML = '';
+            
+            const sortedWords = sortWords(words);
+            wordsArray = sortedWords;
+            originalPositions.clear();
+            block3Color = null;
+            
+            const block2 = document.getElementById('block2');
+            sortedWords.forEach((wordObj, index) => {
+                const wordElement = createWordElement(wordObj, index);
+                block2.appendChild(wordElement);
+                originalPositions.set(wordObj.key, {
+                    element: wordElement,
+                    index: index
+                });
+            });
+        }
+
+        function sortWords(words) {
+            const lowercaseWords = [];
+            const uppercaseWords = [];
+            const numbers = [];
+            
+            words.forEach(word => {
+                const trimmedWord = word.trim();
+                if (!trimmedWord) return;
+                
+                if (/^\d+$/.test(trimmedWord)) {
+                    numbers.push({
+                        type: 'number',
+                        value: parseInt(trimmedWord),
+                        display: trimmedWord
+                    });
+                } 
+                else if (/^[А-Я]/.test(trimmedWord)) {
+                    uppercaseWords.push({
+                        type: 'uppercase',
+                        value: trimmedWord.toLowerCase(),
+                        display: trimmedWord
+                    });
+                }
+                else {
+                    lowercaseWords.push({
+                        type: 'lowercase', 
+                        value: trimmedWord.toLowerCase(),
+                        display: trimmedWord
+                    });
+                }
+            });
+            
+            lowercaseWords.sort((a, b) => a.value.localeCompare(b.value, 'ru'));
+            uppercaseWords.sort((a, b) => a.value.localeCompare(b.value, 'ru'));
+            numbers.sort((a, b) => a.value - b.value);
+            
+            lowercaseWords.forEach((item, index) => {
+                item.key = 'a' + (index + 1);
+            });
+            uppercaseWords.forEach((item, index) => {
+                item.key = 'b' + (index + 1);
+            });
+            numbers.forEach((item, index) => {
+                item.key = 'n' + (index + 1);
+            });
+            
+            return [...lowercaseWords, ...uppercaseWords, ...numbers];
+        }
+
+        function createWordElement(wordObj, index) {
+            const element = document.createElement('div');
+            element.className = 'word-item';
+            element.textContent = `${wordObj.key}: ${wordObj.display}`;
+            element.draggable = true;
+            element.dataset.key = wordObj.key;
+            element.dataset.word = wordObj.display;
+            
+            // Случайный цвет
+            const randomColor = `hsl(${Math.random() * 360}, 70%, 65%)`;
+            element.style.backgroundColor = randomColor;
+            
+            element.addEventListener('dragstart', dragStart);
+            element.addEventListener('click', function(event) {
+                if (this.parentElement.id === 'block3') {
+                    addWordToOutput(this.dataset.word);
+                }
+            });
+            
+            return element;
+        }
+
+        function addWordToOutput(word) {
+            const output = document.getElementById('wordsOutput');
+            const wordSpan = document.createElement('span');
+            wordSpan.className = 'output-word';
+            wordSpan.textContent = word;
+            output.appendChild(wordSpan);
+        }
+
+        function dragStart(event) {
+            event.dataTransfer.setData('text/plain', event.target.dataset.key);
+            event.target.classList.add('dragging');
+        }
+
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            const key = event.dataTransfer.getData('text/plain');
+            const draggedElement = document.querySelector(`[data-key="${key}"]`);
+            
+            if (draggedElement && event.target.id === 'block3') {
+                // Устанавливаем общий цвет для всех элементов в блоке 3
+                if (!block3Color) {
+                    block3Color = `hsl(${Math.random() * 360}, 70%, 65%)`;
+                }
+                draggedElement.style.backgroundColor = block3Color;
+                
+                event.target.appendChild(draggedElement);
+                draggedElement.classList.remove('dragging');
+            }
+        }
+
+        function dropBack(event) {
+            event.preventDefault();
+            const key = event.dataTransfer.getData('text/plain');
+            const draggedElement = document.querySelector(`[data-key="${key}"]`);
+            
+            if (draggedElement && event.target.id === 'block2') {
+                const originalPosition = originalPositions.get(key);
+                if (originalPosition) {
+                    // Восстанавливаем оригинальный цвет
+                    const randomColor = `hsl(${Math.random() * 360}, 70%, 65%)`;
+                    draggedElement.style.backgroundColor = randomColor;
+                    
+                    // Вставляем на оригинальную позицию
+                    const block2 = document.getElementById('block2');
+                    const children = Array.from(block2.children).filter(child => child.classList.contains('word-item'));
+                    
+                    if (originalPosition.index >= children.length) {
+                        block2.appendChild(draggedElement);
+                    } else {
+                        block2.insertBefore(draggedElement, children[originalPosition.index]);
+                    }
+                    
+                    draggedElement.classList.remove('dragging');
+                }
+            }
+        }
+
+        document.getElementById('textInput').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                parseWords();
+            }
+        });
+    </script>
+</body>
+</html>
