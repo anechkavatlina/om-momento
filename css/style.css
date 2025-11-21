@@ -77,7 +77,7 @@ body {
 
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/hero-bg.jpg') center/cover no-repeat;
+    background: rgba(159, 184, 173, 0.9);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -364,8 +364,7 @@ body {
 
 
 .page-hero {
-    background: linear-gradient(rgba(159, 184, 173, 0.9), rgba(159, 184, 173, 0.8)), 
-                url('images/poses-bg.jpg') center/cover no-repeat;
+    background: rgba(159, 184, 173, 0.9);
     padding: 120px 0 80px;
     text-align: center;
     color: white;
@@ -686,5 +685,6 @@ body {
         border-bottom: 1px solid #f0f0f0;
     }
 }
+
 
 
