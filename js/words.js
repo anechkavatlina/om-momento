@@ -140,11 +140,9 @@ function dropBack(event) {
     if (draggedElement && event.target.id === 'block2') {
         const originalPosition = originalPositions.get(key);
         if (originalPosition) {
-            // Восстанавливаем оригинальный цвет
             const randomColor = `hsl(${Math.random() * 360}, 70%, 65%)`;
             draggedElement.style.backgroundColor = randomColor;
-            
-            // Вставляем на оригинальную позицию
+
             const block2 = document.getElementById('block2');
             const children = Array.from(block2.children).filter(child => child.classList.contains('word-item'));
             
@@ -164,3 +162,4 @@ document.getElementById('textInput').addEventListener('keypress', function(event
         parseWords();
     }
 });
+
